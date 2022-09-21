@@ -1,0 +1,18 @@
+Good design pattern:
+I followed a good design practice by seperating both the classes and the interface into seperate files
+for better code readibility and to allow the reader to better understand the code.
+
+Improving the design of your classes using SOLID principles
+
+1) SINGLE RESPONSIBILITY PRINCIPLE (SRP)
+Each class (Queue and Stack) have one responsibility
+– it shouldn’t take on extra responsibilities
+– ideally it should contain all functionality needed to support that responsibility 
+
+2) OPEN/CLOSED PRINCIPLE (OCP)
+The classes (Queue and Stack) are open for extension, but closed for modification.
+In my code more functions can easily be included easily.
+
+3) INTERFACE SEGREGATION PRINCIPLE (ISP)
+Classes should not be forced to depend upon interfaces that they do not use.
+Both of my classes implement an interface IQueable and completely make use of it.
